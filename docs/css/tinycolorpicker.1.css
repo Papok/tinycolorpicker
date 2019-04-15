@@ -1,74 +1,4 @@
 /* COLORPICKER 1 EXAMPLE */
-.colorPicker_main
-{
-    width:          30px;
-    height:         30px;
-    position: relative;
-    clear: both;
-    margin: 0 auto 20px;
-}
-
-.colorPicker_track {
-    background:     #EFEFEF url(/tinycolorpicker/docs/images/text-color.png) no-repeat 50% 50%;
-    height:         150px;
-    width:          150px;
-    padding:        0px;
-    position:       absolute;
-    cursor:         crosshair;
-    float:          left;
-    left:           36px;
-    top:            -64px;
-    display:        none;
-    border:         1px solid #ccc;
-    z-index:        10;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    border-radius: 150px;
-
-}
-
-.colorPicker_color {
-    width:          25px;
-    height:         25px;
-    padding:        0px;
-    border:         0px solid #ccc;
-    display:        block;
-    position:       relative;
-    z-index:        11;
-    background-color: #EFEFEF;
-    -webkit-border-radius: 27px;
-    -moz-border-radius: 27px;
-    border-radius: 27px;
-    cursor: pointer;
-}
-
-.colorPicker_colorInner {
-    width:          25px;
-    height:         25px;
-    -webkit-border-radius: 27px;
-    -moz-border-radius: 27px;
-    border-radius: 27px;
-    z-index: 12;
-    border:         1px solid #ccc;
-}
-
-.colorPicker_dropdown {
-    list-style: none;
-    display: none;
-    width: 27px;
-    position: absolute;
-    top: 28px;
-    border: 1px solid #ccc;
-    left: 0;
-    z-index: 1000;
-}
-
-.colorPicker_dropdown li{
-    height: 25px;
-    cursor: pointer;
-}
-
-/* COLORPICKER 1 EXAMPLE */
 #colorPicker1
 {
     width:          30px;
@@ -78,7 +8,7 @@
     margin: 0 auto 20px;
 }
 
-#colorPicker1 .track {
+#colorPicker1 .colorPicker_track {
     background:     #EFEFEF url(../images/text-color.png) no-repeat 50% 50%;
     height:         150px;
     width:          150px;
@@ -97,7 +27,7 @@
 
 }
 
-#colorPicker1 .color {
+#colorPicker1 .colorPicker_color {
     width:          25px;
     height:         25px;
     padding:        1px;
@@ -112,7 +42,7 @@
     cursor: pointer;
 }
 
-#colorPicker1 .colorInner {
+#colorPicker1 .colorPicker_colorInner {
     width:          25px;
     height:         25px;
     -webkit-border-radius: 27px;
@@ -120,7 +50,7 @@
     border-radius: 27px;
 }
 
-#colorPicker1 .dropdown {
+#colorPicker1 .colorPicker_dropdown {
     list-style: none;
     display: none;
     width: 27px;
@@ -131,7 +61,7 @@
     z-index: 1000;
 }
 
-#colorPicker1 .dropdown li{
+#colorPicker1 .colorPicker_dropdown li{
     height: 25px;
     cursor: pointer;
 }
@@ -146,7 +76,7 @@
     margin: 0 auto 20px;
 }
 
-#colorPicker2 .track {
+#colorPicker2 .colorPicker_track {
     background:     #EFEFEF url(../images/firefox.png) no-repeat 50% 50%;
     height:         150px;
     width:          150px;
@@ -165,7 +95,7 @@
 
 }
 
-#colorPicker2 .color {
+#colorPicker2 .colorPicker_color {
     width:          75px;
     height:         25px;
     line-height:    25px;
@@ -184,7 +114,7 @@
     padding: 0 0 0 10px;
 }
 
-#colorPicker2 .colorInner {
+#colorPicker2 .colorPicker_colorInner {
     width:          25px;
     height:         25px;
     float: right;
@@ -194,7 +124,7 @@
     border-left: 3px solid #ccc;
 }
 
-#colorPicker2 .dropdown {
+#colorPicker2 .colorPicker_dropdown {
     list-style: none;
     display: none;
     width: 27px;
@@ -205,7 +135,7 @@
     z-index: 1000;
 }
 
-#colorPicker2 .dropdown li{
+#colorPicker2 .colorPicker_dropdown li{
     height: 25px;
     cursor: pointer;
 }
@@ -220,7 +150,7 @@
     margin: 0 auto 20px;
 }
 
-#colorPicker3 .track {
+#colorPicker3 .colorPicker_track {
     background:     #EFEFEF url(../images/text-color.png) no-repeat 50% 50%;
     height:         150px;
     width:          150px;
@@ -239,7 +169,7 @@
 
 }
 
-#colorPicker3 .color {
+#colorPicker3 .colorPicker_color {
     width:          25px;
     height:         25px;
     padding:        1px;
@@ -254,7 +184,7 @@
     cursor: pointer;
 }
 
-#colorPicker3 .colorInner {
+#colorPicker3 .colorPicker_colorInner {
     width:          25px;
     height:         25px;
     -webkit-border-radius: 27px;
@@ -262,7 +192,7 @@
     border-radius: 27px;
 }
 
-#colorPicker3 .dropdown {
+#colorPicker3 .colorPicker_dropdown {
     list-style: none;
     display: none;
     width: 27px;
@@ -273,7 +203,7 @@
     z-index: 1000;
 }
 
-#colorPicker3 .dropdown li{
+#colorPicker3 .colorPicker_dropdown li{
     height: 25px;
     cursor: pointer;
 }
